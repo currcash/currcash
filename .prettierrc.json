@@ -1,0 +1,57 @@
+{
+    "tabWidth": 2,
+    "requirePragma": false,
+    "insertPragma": false,
+    "proseWrap": "always",
+    "embeddedLanguageFormatting": "auto",
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": [
+                "index.ts",
+                "src/**",
+                "currcash.d.ts",
+                "test/index.test.ts"
+            ],
+            "options": {
+                "singleQuote": true,
+                "useTabs": false,
+                "trailingComma": "none",
+                "singleAttributePerLine": false,
+                "htmlWhitespaceSensitivity": "css",
+                "arrowParens": "avoid",
+                "bracketSpacing": true,
+                "jsxSingleQuote": true,
+                "quoteProps": "as-needed",
+                "bracketSameLine": false,
+                "printWidth": 72
+            }
+        },
+        {
+            "files": [
+                "index.ts",
+                "src/currcash.ts",
+                "src/modules/*.ts",
+                "src/constants/*.ts",
+                "src/types/*.ts",
+                "src/utils/**",
+                "test/index.test.ts"
+            ],
+            "options": {
+                "semi": false
+            }
+        },
+        {
+            "files": "currcash.d.ts",
+            "options": {
+                "semi": true
+            }
+        },
+        {
+            "files": "package.json",
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}

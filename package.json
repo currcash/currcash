@@ -1,0 +1,32 @@
+{
+    "name": "currcash",
+    "description": "Library to work with your currency",
+    "version": "1.0.1",
+    "main": "./node/index.js",
+    "browser": "./browser/index.js",
+    "types": "currcash.d.ts",
+    "license": "MIT",
+    "homepage": "https://currcashdocs.surge.sh/",
+    "author": "Moises Reyes <meelight12@gmail.com> (https://github.com/MeeL1ght)",
+    "keywords": [
+        "library",
+        "currency",
+        "cash",
+        "precision",
+        "number",
+        "transactions",
+        "decimal",
+        "float",
+        "price"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/currcash/currcash.git"
+    },
+    "dependencies": {
+        "decimal.js-light": "^2.5.1"
+    },
+    "devDependencies": {
+        "typescript": "^5.1.3"
+    }
+}
