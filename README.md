@@ -13,14 +13,10 @@ decimal.js-light </a> </small>.
 
 ## Installation
 
-### JavaScript
 ```shell
 npm install currcash --save
 ```
 
-### TypeScript
-```shell
-npm install currcash-ts --save
-```
+#### We also have support for `TypeScript`. You don't need to install the types.
 
 #### See the <a href="https://currcashdocs.surge.sh/" target="_blank">documentation</a> for more information.
