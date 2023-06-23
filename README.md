@@ -1,4 +1,4 @@
-# Currcash
+# Currcash-TS
 
 A library to work with currencies, perform mathematical operations without
 worries of obtaining results with extensive decimals had not been so simple.
@@ -14,7 +14,7 @@ decimal.js-light </a> </small>.
 ## Installation
 
 ```shell
-npm install currcash --save
+npm install currcash-ts --save
 ```
 
 #### See the <a href="https://currcashdocs.surge.sh/" target="_blank">documentation</a> for more information.
