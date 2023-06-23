@@ -11,12 +11,12 @@ decimal.js-light </a> </small>.
 - JavaScript Modules
 - Javascript [CommonJS](https://github.com/nodejs/nodejs.org)
 
-## Installation
+## Installation 🚀
 
-```shell
-npm install currcash --save
+```sh
+npm i currcash
 ```
 
-#### We also have support for `TypeScript`. You don't need to install the types.
+#### We also have support for `TypeScript`. You don't need to install the types. 😎
 
 #### See the <a href="https://currcashdocs.surge.sh/" target="_blank">documentation</a> for more information.
