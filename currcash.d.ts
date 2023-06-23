@@ -5,19 +5,10 @@ export type Currency = {
   separators?: string[];
 };
 
-/**
- * Create a currency
- * @example
- * const currency = new Currcash()
- * // By not receiving arguments then
- * this.value = 0
- * this.precision = -1
- * this.separators = ['.', ',']
- */
 export declare class Currcash {
   public value?: number;
   public precision?: number;
-  public separators?: string[];
+  public separators?: string[]
 
   constructor({
     value = 0,
@@ -62,8 +53,6 @@ export declare class Currcash {
 }
 
 // ___ $ Exports ___
-export default Currcash;
-
 export declare class CurrcashError extends Error {
   public errorType: string
 
