@@ -1,7 +1,7 @@
 {
     "name": "currcash",
     "description": "Library to work with your currency",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "./node/index.js",
     "browser": "./browser/index.js",
     "types": "./currcash.d.ts",
